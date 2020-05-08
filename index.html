@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Calculator</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+{widgetcode:"188a8b7fbf8a2360aa3d06f966aec128a3c75835e450477fd5fa51a239eae7d0", values:{},ready:function(){}};
+var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
+</head>
+<body>
+	<form class="Calculator" name="calci">
+		<input class="value" type="text" name="txt" readonly="">
+		<span class="num clear" onclick="document.calci.txt.value =''">C</span>
+		<span class="num" onclick="document.calci.txt.value +='%'">%</span>
+		<span class="num" onclick="document.calci.txt.value +='/'">/</span>
+		<span class="num" onclick="document.calci.txt.value +='7'">7</span>
+		<span class="num" onclick="document.calci.txt.value +='8'">8</span>
+		<span class="num" onclick="document.calci.txt.value +='9'">9</span>
+		<span class="num" onclick="document.calci.txt.value +='*'">*</span>
+		<span class="num" onclick="document.calci.txt.value +='4'">4</span>
+		<span class="num" onclick="document.calci.txt.value +='5'">5</span>
+		<span class="num" onclick="document.calci.txt.value +='6'">6</span>
+		<span class="num" onclick="document.calci.txt.value +='-'">-</span>
+		<span class="num" onclick="document.calci.txt.value +='1'">1</span>
+		<span class="num" onclick="document.calci.txt.value +='2'">2</span>
+		<span class="num" onclick="document.calci.txt.value +='3'">3</span>
+		<span class="num" onclick="document.calci.txt.value +='+'">+</span>
+		<span class="num dot" onclick="document.calci.txt.value +='.'">.</span>
+		<span class="num" onclick="document.calci.txt.value +='0'">0</span>
+		<span class="num equal" onclick="document.calci.txt.value = eval(calci.txt.value)">=</span>
+	</form>
+</body>
+</html>
